@@ -9,31 +9,34 @@ export class LeadService {
     private readonly notification: LeadNotificationProvider,
   ) {}
 
-  // Main pipeline entry point.
-  // Sequence: storage.save() first → only on success, notification.notify().
-  // A storage failure is fatal; a notification failure is non-fatal.
-  async submit(lead: Lead): Promise<Result> {
-    // Logged context never includes name/phone — minimal PII, no secrets.
+  // Saves the lead to storage. Returns success/failure.
+  // Call this before returning the server action response.
+  async save(lead: Lead): Promise<Result> {
     const ctx = { language: lead.language, sourcePage: lead.sourcePage }
-
-    const storageResult = await this.storage.save(lead)
-
-    // Storage failure is FATAL: abort, never notify, surface the error.
-    if (!storageResult.success) {
-      console.error('[LeadService] Storage failed — aborting, no notification sent:', storageResult.error, ctx)
-      return { success: false, error: storageResult.error }
+    const result = await this.storage.save(lead)
+    if (!result.success) {
+      console.error('[LeadService] Storage failed:', result.error, ctx)
+      return { success: false, error: result.error }
     }
-
     console.warn('[LeadService] Lead stored', ctx)
-
-    // Storage succeeded → the lead is durable. Notification is non-fatal and
-    // runs in the background with retries so it never blocks the user response.
-    void this.notifyWithRetry(lead)
-
     return { success: true }
   }
 
-  private async notifyWithRetry(lead: Lead, attempt = 1): Promise<void> {
+  // Sends the notification with retries. Call this via next/server `after()`
+  // so Vercel keeps the function alive after the response is sent.
+  async notify(lead: Lead): Promise<void> {
+    await this.notifyWithRetry(lead)
+  }
+
+  // submit() is kept for non-Vercel environments and direct usage.
+  async submit(lead: Lead): Promise<Result> {
+    const saveResult = await this.save(lead)
+    if (!saveResult.success) return saveResult
+    await this.notify(lead)
+    return { success: true }
+  }
+
+  async notifyWithRetry(lead: Lead, attempt = 1): Promise<void> {
     const ctx = { language: lead.language, sourcePage: lead.sourcePage }
     const result = await this.notification.notify(lead)
 

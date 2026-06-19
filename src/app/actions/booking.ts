@@ -2,6 +2,7 @@
 
 import { getLocale, getTranslations } from 'next-intl/server'
 import { headers } from 'next/headers'
+import { after } from 'next/server'
 import { leadService } from '@/lib/leads'
 import { createBookingSchema } from '@/lib/validation'
 import { checkRateLimit, extractIp } from '@/lib/rate-limit'
@@ -63,7 +64,7 @@ export async function submitBooking(
 
   const sourcePage = headersList.get('referer') ?? `/${locale}`
 
-  const result = await leadService.submit({
+  const lead = {
     fullName: parsed.data.fullName,
     phone: parsed.data.phone,
     city: parsed.data.city || undefined,
@@ -72,11 +73,17 @@ export async function submitBooking(
     language: locale,
     sourcePage,
     createdAt: new Date(),
-  })
-
-  if (!result.success) {
-    return { status: 'error', error: result.error }
   }
+
+  const saveResult = await leadService.save(lead)
+
+  if (!saveResult.success) {
+    return { status: 'error', error: saveResult.error }
+  }
+
+  // after() keeps the Vercel function alive after the response is sent,
+  // so the Telegram notification is guaranteed to fire even on serverless.
+  after(() => leadService.notify(lead))
 
   return { status: 'success' }
 }
