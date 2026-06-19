@@ -24,7 +24,7 @@ export class LeadService {
       return { success: false, error: storageResult.error }
     }
 
-    console.info('[LeadService] Lead stored', ctx)
+    console.warn('[LeadService] Lead stored', ctx)
 
     // Storage succeeded → the lead is durable. Notification is non-fatal and
     // runs in the background with retries so it never blocks the user response.
@@ -38,7 +38,7 @@ export class LeadService {
     const result = await this.notification.notify(lead)
 
     if (result.success) {
-      console.info('[LeadService] Notification sent', { ...ctx, attempt })
+      console.warn('[LeadService] Notification sent', { ...ctx, attempt })
       return
     }
 
