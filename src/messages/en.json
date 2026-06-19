@@ -1,0 +1,511 @@
+{
+  "common": {
+    "clinicName": "Miracle IVF",
+    "phone": "+998 XX XXX-XX-XX",
+    "address": "Tashkent, [Address]",
+    "ctaPrimary": "Book Consultation",
+    "ctaCall": "Call Us",
+    "ctaWhatsapp": "WhatsApp",
+    "ctaTelegram": "Telegram",
+    "whatsappUrl": "https://wa.me/998000000000",
+    "telegramUrl": "https://t.me/miracleivf",
+    "mapsUrl": "https://maps.google.com/?q=Miracle+IVF+Tashkent",
+    "learnMore": "Learn More",
+    "loading": "Loading...",
+    "close": "Close"
+  },
+  "meta": {
+    "title": "Miracle IVF — IVF Clinic in Tashkent",
+    "description": "Advanced IVF treatment with international specialists. 65% success rate. Book a free consultation today.",
+    "ogTitle": "Miracle IVF — Hope, Science & Care",
+    "ogDescription": "Make your dream of parenthood a reality. International-standard IVF clinic in Tashkent.",
+    "twitterTitle": "Miracle IVF — IVF Clinic in Tashkent"
+  },
+  "nav": {
+    "services": "Services",
+    "doctors": "Doctors",
+    "process": "Process",
+    "success": "Success Stories",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "langLabel": "Select language",
+    "currentLang": "English",
+    "switchToUz": "Switch to Uzbek",
+    "switchToRu": "Switch to Russian",
+    "switchToEn": "Switch to English"
+  },
+  "hero": {
+    "heading": "Your Dream of Parenthood — Our Mission",
+    "subheading": "Modern IVF treatment with international specialists. In Tashkent. For you.",
+    "trust1": "65% success rate",
+    "trust2": "10,000+ happy families",
+    "trust3": "International doctors",
+    "ctaPrimary": "Book a Free Consultation",
+    "ctaSecondary": "Call Us",
+    "imageAlt": "Happy family — Miracle IVF Clinic"
+  },
+  "stats": {
+    "sectionLabel": "Our Results",
+    "successRate": {
+      "value": "65%",
+      "label": "IVF Success Rate"
+    },
+    "babiesBorn": {
+      "value": "10,000+",
+      "label": "Babies Born"
+    },
+    "yearsExp": {
+      "value": "15+",
+      "label": "Years of Experience"
+    },
+    "doctors": {
+      "value": "20+",
+      "label": "International Doctors"
+    },
+    "ariaLabel": "Clinic statistics"
+  },
+  "problem": {
+    "heading": "Waiting is hard...",
+    "subheading": "But you're not alone. We understand.",
+    "leftHeading": "What many couples face",
+    "item1": "Years of waiting and disappointment",
+    "item2": "Lack of clear answers or direction",
+    "item3": "Uncertainty and fear about the future",
+    "item4": "Limited options at local clinics",
+    "rightHeading": "Miracle IVF — a different approach",
+    "solution1": "Advanced IVF technology and certified laboratories",
+    "solution2": "International specialist team — 15+ years experience",
+    "solution3": "Individual, respectful care for every patient",
+    "solution4": "In your language — Uzbek, Russian, English",
+    "cta": "Book a Free Consultation"
+  },
+  "services": {
+    "heading": "Our Services",
+    "subheading": "Personalised care and advanced treatment for every situation",
+    "sectionBadge": "10+ specialised services",
+    "trust1": "International standards",
+    "trust2": "Personalised treatment",
+    "trust3": "Advanced diagnostics",
+    "cta": "Book a free consultation",
+    "ivf": {
+      "title": "IVF (In Vitro Fertilisation)",
+      "description": "The gold-standard fertility treatment — eggs are fertilised with sperm in our laboratory to create quality embryos for transfer.",
+      "benefit": "65% success rate — the highest in Tashkent",
+      "iconAlt": "IVF service"
+    },
+    "diagnostics": {
+      "title": "Infertility Diagnostics",
+      "description": "Complete diagnostic workup for couples: hormone panels, ultrasound, semen analysis and genetic screening.",
+      "benefit": "Clear diagnosis — effective treatment plan",
+      "iconAlt": "Diagnostics service"
+    },
+    "female": {
+      "title": "Female Infertility Treatment",
+      "description": "Specialised treatment for PCOS, endometriosis, diminished ovarian reserve and uterine conditions.",
+      "benefit": "Treatment protocol tailored individually to each woman",
+      "iconAlt": "Female infertility treatment"
+    },
+    "male": {
+      "title": "Male Infertility Treatment",
+      "description": "Semen analysis, andrologist consultation and advanced micromanipulation technologies.",
+      "benefit": "90% of male infertility cases are treatable",
+      "iconAlt": "Male infertility treatment"
+    },
+    "preparation": {
+      "title": "IVF Preparation Programme",
+      "description": "Comprehensive pre-IVF preparation: health optimisation, supplements, stress management and psychological support.",
+      "benefit": "Preparation significantly increases your chances of success",
+      "iconAlt": "IVF preparation programme"
+    },
+    "pgt": {
+      "title": "Embryo Genetics (PGT)",
+      "description": "Identifying genetic defects before embryo transfer — the most reliable path to a healthy baby.",
+      "benefit": "Reduces genetic disease risk by 95%",
+      "iconAlt": "Embryo genetic testing"
+    },
+    "hysteroscopy": {
+      "title": "Hysteroscopy",
+      "description": "Endoscopic examination and treatment of the uterus — minimally invasive, go home the same day.",
+      "benefit": "Minimal discomfort, fast recovery, precise results",
+      "iconAlt": "Hysteroscopy service"
+    },
+    "hormones": {
+      "title": "Hormonal Testing",
+      "description": "Full panel of AMH, FSH, LH, prolactin and other reproductive hormones — assess ovarian reserve accurately.",
+      "benefit": "Complete picture of reproductive health in one visit",
+      "iconAlt": "Hormonal testing service"
+    },
+    "gynConsult": {
+      "title": "Reproductive Gynaecology Consultation",
+      "description": "In-depth consultation with a specialist on infertility, recurrent pregnancy loss and reproductive health.",
+      "benefit": "Your questions — clear answers and next steps",
+      "iconAlt": "Reproductive gynaecology consultation"
+    },
+    "androConsult": {
+      "title": "Reproductive Andrology Consultation",
+      "description": "Male reproductive health: sperm quality, hormonal balance and fertility assessment.",
+      "benefit": "Male health is half of the couple's success",
+      "iconAlt": "Reproductive andrology consultation"
+    }
+  },
+  "doctors": {
+    "heading": "Our Specialists",
+    "subheading": "International expertise with local understanding",
+    "teamBadge": "International Medical Team",
+    "combinedExp": "Our team's combined experience exceeds 45 years",
+    "yearsLabel": "years of experience",
+    "trainedIn": "Country of training",
+    "certBadge": "Certified",
+    "photoAlt": "Dr. {name} — Miracle IVF specialist",
+    "consultationCta": "Book Consultation",
+    "cta": "Book with a Specialist",
+    "inamdar": {
+      "name": "Dr. Inamdar",
+      "specialty": "Reproductive Endocrinologist",
+      "country": "India",
+      "experience": "15+ years",
+      "bio": "Over 15 years of practice at leading reproductive medicine centres in India. Extensive experience in complex IVF cases, PCOS treatment, and reproductive endocrinology.",
+      "tag1": "IVF / ICSI",
+      "tag2": "PCOS Treatment",
+      "tag3": "Reproductive Endocrinology"
+    },
+    "beysenbi": {
+      "name": "Dr. Meruert Beysenbi",
+      "specialty": "Gynecologist-Reproductologist",
+      "country": "Kazakhstan",
+      "experience": "12+ years",
+      "bio": "Trained at prestigious medical institutions in Kazakhstan with over 12 years of clinical practice. Specialises in endometrial pathologies and recurrent pregnancy loss.",
+      "tag1": "Endometrium Treatment",
+      "tag2": "Gynecology",
+      "tag3": "Minimally Invasive Surgery"
+    },
+    "benko": {
+      "name": "Dr. V.V. Benko",
+      "specialty": "Embryologist & Reproductologist",
+      "country": "Ukraine",
+      "experience": "18+ years",
+      "bio": "Internationally certified specialist with 18 years of deep expertise in embryology. Extensive experience in PGT genetic diagnostics, cryobiology, and advanced embryo culture techniques.",
+      "tag1": "Embryology",
+      "tag2": "PGT Genetic Diagnostics",
+      "tag3": "Cryobiology"
+    }
+  },
+  "process": {
+    "heading": "The IVF Journey: We're With You Every Step",
+    "subheading": "8 clear steps — from your first consultation to your positive result",
+    "sectionBadge": "8 steps",
+    "trust1": "Specialist supervision throughout",
+    "trust2": "Personalised protocol",
+    "trust3": "International standards",
+    "cta": "Book a free consultation",
+    "step1": {
+      "number": "01",
+      "title": "Consultation & Diagnosis",
+      "description": "Our specialist carefully reviews your medical history, test results and questions. A detailed, personalised treatment plan is created."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Preparation & Testing",
+      "description": "Blood tests, ultrasound, semen analysis and all necessary diagnostics are completed. Your body is fully prepared for IVF."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Ovarian Stimulation",
+      "description": "Hormonal medication brings several eggs to maturity simultaneously. Doctors monitor progress continuously with ultrasound."
+    },
+    "step4": {
+      "number": "04",
+      "title": "Egg Retrieval",
+      "description": "Mature eggs are collected under ultrasound guidance, painlessly. The procedure is brief and safe."
+    },
+    "step5": {
+      "number": "05",
+      "title": "Laboratory Fertilisation",
+      "description": "An embryologist combines the eggs with sperm, and the fertilised cells develop in a specialised incubator."
+    },
+    "step6": {
+      "number": "06",
+      "title": "Embryo Development",
+      "description": "Fertilised cells are observed for 3–5 days. Quality embryos are prepared for transfer."
+    },
+    "step7": {
+      "number": "07",
+      "title": "Embryo Transfer",
+      "description": "A quality embryo is placed into the uterus via a fine catheter. The procedure is painless and takes 15–20 minutes."
+    },
+    "step8": {
+      "number": "08",
+      "title": "HCG Test & Result",
+      "description": "10–14 days after transfer, a blood test confirms the pregnancy. This is the moment our patients — and our whole team — have been working towards."
+    }
+  },
+  "stories": {
+    "heading": "Success Stories",
+    "subheading": "Over 10,000 families found happiness",
+    "outcomeLabel": "Outcome",
+    "locationLabel": "City",
+    "yearLabel": "Year",
+    "photoAlt": "Happy family — Miracle IVF success story",
+    "privacyNote": "(Published with patient consent)",
+    "cta": "You Can Start Too — Book a Free Consultation",
+    "sectionBadge": "Real Results",
+    "successLabel": "Success",
+    "blurNotice": "Blurred for privacy",
+    "typeHcg": "HCG Positive",
+    "typeIvf": "IVF Success",
+    "typeFamily": "Happy Family",
+    "typeGratitude": "Patient Message",
+    "result1": {
+      "identifier": "G.M. — Tashkent",
+      "outcome": "Successful pregnancy on the first attempt",
+      "date": "March 2024",
+      "mediaAlt": "Positive pregnancy test result"
+    },
+    "result2": {
+      "identifier": "N.R. — Samarkand",
+      "outcome": "Positive result after three attempts",
+      "date": "January 2024",
+      "mediaAlt": "Positive HCG test result"
+    },
+    "result3": {
+      "identifier": "D.Yu. — Andijan",
+      "outcome": "Happy family achieved with twins",
+      "date": "November 2023",
+      "mediaAlt": "Happy family with twins"
+    },
+    "result4": {
+      "identifier": "M.B. — Bukhara",
+      "outcome": "Five years of hope finally realised",
+      "date": "February 2024",
+      "mediaAlt": "Happy parents with newborn"
+    },
+    "result5": {
+      "identifier": "S.I. — Namangan",
+      "outcome": "First child achieved through ICSI protocol",
+      "date": "September 2023",
+      "mediaAlt": "Happy family photo"
+    },
+    "result6": {
+      "identifier": "Z.K. — Tashkent",
+      "outcome": "A miracle happened after two years of treatment",
+      "date": "April 2024",
+      "quote": "I am endlessly grateful to the Miracle IVF team. They gave us a child — the greatest miracle of our lives.",
+      "mediaAlt": ""
+    }
+  },
+  "testimonials": {
+    "heading": "Patient Testimonials",
+    "subheading": "Every review is a real experience from a real family",
+    "ratingLabel": "overall rating",
+    "reviewCountLabel": "{count}+ reviews",
+    "prevLabel": "Previous",
+    "nextLabel": "Next",
+    "slideLabel": "Testimonial {current} of {total}",
+    "stars": "{count} stars out of 5",
+    "verifiedLabel": "Verified patient",
+    "trustBadge": "Verified Patient Reviews",
+    "socialProofStats": "200+ real patient reviews",
+    "overallRating": "4.9",
+    "typeWritten": "Written Review",
+    "typeTelegram": "Telegram Message",
+    "typeScreenshot": "Review Screenshot",
+    "typeVideo": "Video Testimonial",
+    "telegramSentLabel": "Sent via Telegram",
+    "t1": {
+      "quote": "I am endlessly grateful to the Miracle IVF team. They gave us a new life. A positive result on the first attempt — it was truly a miracle.",
+      "name": "D.M.",
+      "city": "Tashkent",
+      "treatment": "IVF",
+      "mediaAlt": ""
+    },
+    "t2": {
+      "quote": "The doctors are highly professional and caring. Working with international specialists makes such a difference. After three years of searching, we finally achieved our dream.",
+      "name": "G.K.",
+      "city": "Samarkand",
+      "treatment": "ICSI",
+      "mediaAlt": ""
+    },
+    "t3": {
+      "quote": "Hello! Wanted to let you know — the test is positive! We are so happy, huge thanks to your whole team!",
+      "name": "F.A.",
+      "city": "Andijan",
+      "ageRange": "34–39 years",
+      "treatment": "IVF",
+      "mediaAlt": "Telegram message screenshot"
+    },
+    "t4": {
+      "quote": "The clinic's approach and laboratory quality are outstanding. We made the right choice.",
+      "name": "N.T.",
+      "city": "Bukhara",
+      "treatment": "Embryo Freezing",
+      "mediaAlt": "Positive review screenshot"
+    },
+    "t5": {
+      "quote": "I've never experienced such warmth and care from a medical team. They become not just doctors but genuine friends.",
+      "name": "S.R.",
+      "city": "Namangan",
+      "ageRange": "32–37 years",
+      "treatment": "IVF",
+      "mediaAlt": ""
+    },
+    "t6": {
+      "quote": "I want to share my experience through video. Miracle IVF is not just a clinic — it's a place of hope and happiness.",
+      "name": "M.H.",
+      "city": "Tashkent",
+      "treatment": "ICSI",
+      "mediaAlt": "Video testimonial preview"
+    },
+    "cta": "Book a free consultation"
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "subheading": "Clear and honest answers to your most important questions",
+    "sectionBadge": "Questions & Answers",
+    "trust1": "Specialist-based answers",
+    "trust2": "Personalised to your case",
+    "trust3": "Open and honest",
+    "cta": "Book a free consultation",
+    "whatIsIvf": {
+      "question": "What is IVF?",
+      "answer": "IVF (In Vitro Fertilisation) is a reproductive technology in which eggs are fertilised with sperm in laboratory conditions, and the resulting embryo is transferred to the uterus. It is the most thoroughly studied and effective fertility treatment, and has helped millions of families worldwide."
+    },
+    "whoIsItFor": {
+      "question": "Who is IVF suitable for?",
+      "answer": "IVF is recommended for blocked or absent fallopian tubes, PCOS (polycystic ovary syndrome), endometriosis, male infertility, unexplained infertility, when other treatments have not succeeded, and when there is a risk of genetic disease. At your consultation our specialist will determine whether IVF is right for your situation."
+    },
+    "howLong": {
+      "question": "How long does the IVF process take?",
+      "answer": "A standard IVF protocol takes 4–6 weeks. The full cycle from your first consultation to the HCG test — including stimulation (10–14 days), egg retrieval, lab stage, embryo transfer and waiting for results — may take 6–8 weeks in total. An exact schedule is created individually at your consultation."
+    },
+    "isPainful": {
+      "question": "Is IVF painful?",
+      "answer": "Most patients tolerate IVF well. Egg retrieval is performed under local or general anaesthesia and is painless. Embryo transfer is similar to a routine gynaecological procedure — painless and taking 15–20 minutes. During hormonal stimulation, some patients feel pressure in the ovarian area, which is normal."
+    },
+    "tests": {
+      "question": "What tests are needed for IVF?",
+      "answer": "Key tests include: blood type and Rh factor, full blood count and biochemistry, hormone panel (AMH, FSH, LH, prolactin, thyroid hormones), ultrasound of the uterus and ovaries, semen analysis, infection screening (HIV, hepatitis, TORCH), and genetic counselling if indicated. The complete list is tailored individually."
+    },
+    "successFactors": {
+      "question": "What affects IVF success?",
+      "answer": "Key factors include: the woman's age (success rates are higher under 35), egg and embryo quality, uterine condition, sperm quality, the type of protocol chosen, and laboratory quality and embryologist expertise. At Miracle IVF the average success rate is 65%. Your individual prognosis is discussed at consultation."
+    },
+    "regional": {
+      "question": "Can patients from outside Tashkent apply?",
+      "answer": "Yes, absolutely. We welcome patients from all regions of Uzbekistan and neighbouring countries. Remote consultations (video or phone) are available. Before travelling to Tashkent you can have an online consultation and receive your test list. We also assist with accommodation recommendations and flexible scheduling."
+    },
+    "howToBook": {
+      "question": "How do I book a consultation?",
+      "answer": "Several ways to get started: fill in the form on this page — our specialist will contact you within 24 hours; message us on WhatsApp or Telegram; or call us directly. The first consultation is free and without obligation. We recommend bringing any existing test results and medical records."
+    }
+  },
+  "contact": {
+    "sectionBadge": "Get in Touch",
+    "heading": "Book Your Consultation Today",
+    "subheading": "The first step is free, no obligation, and completely confidential",
+    "reassurance1": "100% confidential",
+    "reassurance2": "No obligation",
+    "reassurance3": "Response within 24 hours",
+    "reassurance4": "Free consultation",
+    "orContact": "Or contact us directly",
+    "phoneLabel": "Phone",
+    "whatsappLabel": "Message via WhatsApp",
+    "telegramLabel": "Message via Telegram",
+    "addressLabel": "Address",
+    "hoursLabel": "Opening Hours",
+    "hours": "Mon–Fri: 9:00–18:00, Sat: 9:00–14:00",
+    "mapLabel": "View on map",
+    "mapEmbedTitle": "Miracle IVF clinic map"
+  },
+  "form": {
+    "fullName": {
+      "label": "Full Name",
+      "placeholder": "Your first and last name"
+    },
+    "phone": {
+      "label": "Phone Number",
+      "placeholder": "+998 XX XXX-XX-XX"
+    },
+    "city": {
+      "label": "City (optional)",
+      "placeholder": "Tashkent, Samarkand..."
+    },
+    "service": {
+      "label": "Service of Interest (optional)",
+      "placeholder": "Select a service",
+      "options": {
+        "ivf": "IVF",
+        "icsi": "ICSI",
+        "iui": "IUI",
+        "freezing": "Egg/Embryo Freezing",
+        "male": "Male Infertility",
+        "pgt": "Genetic Testing (PGT)",
+        "general": "General Consultation"
+      }
+    },
+    "message": {
+      "label": "Message (optional)",
+      "placeholder": "Briefly describe your questions or situation..."
+    },
+    "submit": "Book My Consultation",
+    "submitting": "Sending...",
+    "required": "* required",
+    "success": {
+      "heading": "Thank you! Your request has been received",
+      "body": "Our specialist will contact you shortly. We usually respond within 24 hours.",
+      "reassurance": "Your information is kept 100% confidential."
+    },
+    "error": {
+      "heading": "Something went wrong",
+      "body": "Please try again or contact us directly by phone or WhatsApp.",
+      "retry": "Try Again"
+    }
+  },
+  "validation": {
+    "fullName": {
+      "required": "Name is required",
+      "minLength": "Name must be at least 2 characters",
+      "maxLength": "Name must not exceed 100 characters"
+    },
+    "phone": {
+      "required": "Phone number is required",
+      "invalid": "Invalid phone number format"
+    },
+    "message": {
+      "maxLength": "Message must not exceed 1000 characters"
+    },
+    "generic": "Please fill in this field",
+    "rateLimit": "Too many requests. Please try again in 60 minutes."
+  },
+  "footer": {
+    "tagline": "With Hope, Science & Care",
+    "nav": {
+      "heading": "Pages"
+    },
+    "hours": {
+      "heading": "Opening Hours",
+      "weekdays": "Monday–Friday: 9:00–18:00",
+      "saturday": "Saturday: 9:00–14:00",
+      "sunday": "Sunday: Closed"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "youtube": "YouTube"
+    },
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "copyright": "© {year} Miracle IVF. All rights reserved."
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "externalLink": "(opens in new window)",
+    "required": "required field",
+    "formError": "Error:",
+    "carouselRegion": "Patient testimonials carousel",
+    "faqRegion": "Frequently asked questions",
+    "counterAnimating": "Counter animation",
+    "logoAlt": "Miracle IVF — Home",
+    "languageSwitcher": "Language selector"
+  }
+}

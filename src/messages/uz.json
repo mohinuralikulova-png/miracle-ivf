@@ -1,0 +1,511 @@
+{
+  "common": {
+    "clinicName": "Miracle IVF",
+    "phone": "+998 XX XXX-XX-XX",
+    "address": "Toshkent, [Manzil]",
+    "ctaPrimary": "Maslahat olish",
+    "ctaCall": "Qo'ng'iroq qiling",
+    "ctaWhatsapp": "WhatsApp",
+    "ctaTelegram": "Telegram",
+    "whatsappUrl": "https://wa.me/998000000000",
+    "telegramUrl": "https://t.me/miracleivf",
+    "mapsUrl": "https://maps.google.com/?q=Miracle+IVF+Tashkent",
+    "learnMore": "Batafsil",
+    "loading": "Yuklanmoqda...",
+    "close": "Yopish"
+  },
+  "meta": {
+    "title": "Miracle IVF — Toshkentdagi EKO klinikasi",
+    "description": "Xalqaro mutaxassislar bilan zamonaviy EKO davolash. 65% muvaffaqiyat darajasi. Bepul maslahat olish uchun hozir bog'laning.",
+    "ogTitle": "Miracle IVF — Umid, ilm va mehr",
+    "ogDescription": "Farzandli bo'lish orzuingizni amalga oshiring. Toshkentda xalqaro darajadagi EKO klinikasi.",
+    "twitterTitle": "Miracle IVF — Toshkentdagi EKO klinikasi"
+  },
+  "nav": {
+    "services": "Xizmatlar",
+    "doctors": "Shifokorlar",
+    "process": "Jarayon",
+    "success": "Muvaffaqiyatlar",
+    "contact": "Bog'lanish",
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Menyuni yopish",
+    "langLabel": "Tilni tanlang",
+    "currentLang": "O'zbek",
+    "switchToUz": "O'zbekchaga o'tish",
+    "switchToRu": "Ruscha",
+    "switchToEn": "Inglizcha"
+  },
+  "hero": {
+    "heading": "Farzandli bo'lish orzuingiz — bizning vazifamiz",
+    "subheading": "Xalqaro mutaxassislar bilan zamonaviy EKO davolash. Toshkentda. Siz uchun.",
+    "trust1": "65% muvaffaqiyat darajasi",
+    "trust2": "10 000+ xursand oila",
+    "trust3": "Xalqaro shifokorlar",
+    "ctaPrimary": "Bepul maslahat olish",
+    "ctaSecondary": "Qo'ng'iroq qiling",
+    "imageAlt": "Xursand oila — Miracle IVF klinikasi"
+  },
+  "stats": {
+    "sectionLabel": "Bizning natijalarimiz",
+    "successRate": {
+      "value": "65%",
+      "label": "Muvaffaqiyat darajasi"
+    },
+    "babiesBorn": {
+      "value": "10 000+",
+      "label": "Tug'ilgan bolalar"
+    },
+    "yearsExp": {
+      "value": "15+",
+      "label": "Yillik tajriba"
+    },
+    "doctors": {
+      "value": "20+",
+      "label": "Xalqaro shifokorlar"
+    },
+    "ariaLabel": "Klinika statistikasi"
+  },
+  "problem": {
+    "heading": "Farzand kutish og'ir...",
+    "subheading": "Ammo siz yolg'iz emassiz. Biz tushundik.",
+    "leftHeading": "Ko'p juftliklar duch keladigan qiyinchiliklar",
+    "item1": "Yillar davomida kutish va umidsizliklar",
+    "item2": "Aniq javob va yo'nalish yo'qligi",
+    "item3": "Noaniqlik va kelajak haqida qo'rquv",
+    "item4": "Mahalliy klinikalarda cheklangan imkoniyatlar",
+    "rightHeading": "Miracle IVF — boshqacha yondashuv",
+    "solution1": "Zamonaviy EKO texnologiyalari va sertifikatlangan laboratoriyalar",
+    "solution2": "Xalqaro mutaxassislar jamoasi — 15+ yillik tajriba",
+    "solution3": "Har bir bemorga individual va hurmatli yondashuv",
+    "solution4": "Sizning tillingizda — o'zbek, rus, ingliz",
+    "cta": "Bepul maslahat olish"
+  },
+  "services": {
+    "heading": "Bizning xizmatlarimiz",
+    "subheading": "Har bir holat uchun individual yondashuv va zamonaviy davolash",
+    "sectionBadge": "10+ ixtisoslashgan xizmat",
+    "trust1": "Xalqaro standartlar",
+    "trust2": "Individual davolash",
+    "trust3": "Zamonaviy diagnostika",
+    "cta": "Bepul konsultatsiyaga yozilish",
+    "ivf": {
+      "title": "EKO (In Vitro Fertilizatsiya)",
+      "description": "Klassik urug'lantirish usuli — tuxum hujayralari laboratoriyada sperma bilan birlashtirilib, sifatli embrionlar hosil qilinadi.",
+      "benefit": "65% muvaffaqiyat darajasi — Toshkentdagi eng yuqori ko'rsatkich",
+      "iconAlt": "EKO xizmati"
+    },
+    "diagnostics": {
+      "title": "Bepushtlik diagnostikasi",
+      "description": "Juftlik uchun to'liq diagnostika: gormonal tahlillar, ultratovush, sperma tahlili va genetik tekshiruvlar.",
+      "benefit": "Aniq sabab — samarali davolash rejasi",
+      "iconAlt": "Diagnostika xizmati"
+    },
+    "female": {
+      "title": "Ayol bepushtligini davolash",
+      "description": "PCOS, endometrioz, tuxum zaxirasi kamayishi va bachadon muammolariga ixtisoslashgan davolash usullari.",
+      "benefit": "Har bir ayolga moslashtirilgan davolash protokoli",
+      "iconAlt": "Ayol bepushtligi davolash"
+    },
+    "male": {
+      "title": "Erkak bepushtligini davolash",
+      "description": "Sperma tahlili (spermogramma), androlog maslahati va zamonaviy mikromanipulyatsiya texnologiyalari.",
+      "benefit": "Erkaklar bepushtligining 90% hollari davolanadi",
+      "iconAlt": "Erkak bepushtligi davolash"
+    },
+    "preparation": {
+      "title": "EKO tayyorgarlik dasturi",
+      "description": "EKO oldidan kompleks tayyorgarlik: sog'lomlashtirish, vitaminlar, stress boshqaruvi va psixologik qo'llab-quvvatlash.",
+      "benefit": "Tayyorgarlik muvaffaqiyat imkoniyatini sezilarli oshiradi",
+      "iconAlt": "EKO tayyorgarlik dasturi"
+    },
+    "pgt": {
+      "title": "Embrion genetikasi (PGT)",
+      "description": "Embrionlarni ko'chirishdan oldin genetik nuqsonlarni aniqlash — sog'lom farzand uchun eng ishonchli usul.",
+      "benefit": "Genetik kasalliklar xavfini 95% kamaytiradi",
+      "iconAlt": "Embrion genetika tekshiruvi"
+    },
+    "hysteroscopy": {
+      "title": "Gisteroskopiya",
+      "description": "Bachadonning endoskopik tekshiruvi va davolash — minimal invaziv, ertangi kunda uyga qaytasiz.",
+      "benefit": "Minimal og'riq, tez tiklanish, aniq natija",
+      "iconAlt": "Gisteroskopiya xizmati"
+    },
+    "hormones": {
+      "title": "Gormonal tekshiruv",
+      "description": "AMG, FSH, LH, prolaktin va boshqa reproduktiv gormonlarning to'liq tahlili — tuxum zaxirasini aniqlash.",
+      "benefit": "Bir tashrif ichida to'liq reproduktiv sog'liq tasviri",
+      "iconAlt": "Gormonal tekshiruv xizmati"
+    },
+    "gynConsult": {
+      "title": "Reproduktiv ginekolog maslahati",
+      "description": "Bepushtlik, homiladorlikni yo'qotish va reproduktiv salomatlik masalalarida mutaxassis bilan chuqur suhbat.",
+      "benefit": "Savollaringizga — aniq javoblar va keyingi qadamlar",
+      "iconAlt": "Reproduktiv ginekolog maslahati"
+    },
+    "androConsult": {
+      "title": "Reproduktiv androlog maslahati",
+      "description": "Erkaklar reproduktiv sog'ligi: sperma sifati, gormonal muvozanat va urug'lantirish imkoniyatini baholash.",
+      "benefit": "Erkaklar sog'ligi — juftlik muvaffaqiyatining yarmi",
+      "iconAlt": "Reproduktiv androlog maslahati"
+    }
+  },
+  "doctors": {
+    "heading": "Bizning mutaxassislarimiz",
+    "subheading": "Xalqaro tajriba va mahalliy tushunish bir joyda",
+    "teamBadge": "Xalqaro mutaxassislar jamoasi",
+    "combinedExp": "Jamoamizning umumiy tajribasi 45 yildan ortiq",
+    "yearsLabel": "yillik tajriba",
+    "trainedIn": "Ixtisoslashuv mamlakatı",
+    "certBadge": "Sertifikatlangan",
+    "photoAlt": "Dr. {name} — Miracle IVF mutaxassisi",
+    "consultationCta": "Maslahat olish",
+    "cta": "Mutaxassisimiz bilan maslahat olish",
+    "inamdar": {
+      "name": "Dr. Inamdar",
+      "specialty": "Reproduktiv endokrinolog",
+      "country": "Hindiston",
+      "experience": "15+ yil",
+      "bio": "Hindistonning yetakchi reproduktiv tibbiyot markazlarida 15 yildan ortiq faoliyat yuritgan mutaxassis. Murakkab IVF holatlari, PCOS va reproduktiv endokrinologiya bo'yicha keng tajribaga ega.",
+      "tag1": "IVF / ICSI",
+      "tag2": "PCOS davolash",
+      "tag3": "Reproduktiv endokrinologiya"
+    },
+    "beysenbi": {
+      "name": "Dr. Meruert Beysenbi",
+      "specialty": "Ginekolog-reproduktolog",
+      "country": "Qozog'iston",
+      "experience": "12+ yil",
+      "bio": "Qozog'istonning nufuzli tibbiyot muassasalarida tahsil olgan va 12 yildan ortiq amaliyot yuritgan mutaxassis. Endometriya patologiyalari va homiladorlikni yo'qotish muammolari bo'yicha ixtisoslashgan.",
+      "tag1": "Endometriya davolash",
+      "tag2": "Ginekologiya",
+      "tag3": "Minimal invaziv jarrohlik"
+    },
+    "benko": {
+      "name": "Dr. V.V. Benko",
+      "specialty": "Embriyolog va reproduktolog",
+      "country": "Ukraina",
+      "experience": "18+ yil",
+      "bio": "18 yillik chuqur embriyologiya tajribasiga ega bo'lgan xalqaro sertifikatlangan mutaxassis. PGT genetik diagnostika, kriobiologiya va ilg'or embrion kulturasi sohasida keng ko'lamli tajribaga ega.",
+      "tag1": "Embriyologiya",
+      "tag2": "PGT genetik diagnostika",
+      "tag3": "Kriobiologiya"
+    }
+  },
+  "process": {
+    "heading": "EKO jarayoni: har bir qadamda yoningizda",
+    "subheading": "8 ta aniq bosqich — birinchi maslahatdan muvaffaqiyatli natijagacha",
+    "sectionBadge": "8 ta bosqich",
+    "trust1": "Mutaxassis nazorati ostida",
+    "trust2": "Individual protokol",
+    "trust3": "Xalqaro standartlar",
+    "cta": "Bepul konsultatsiyaga yozilish",
+    "step1": {
+      "number": "01",
+      "title": "Konsultatsiya va diagnostika",
+      "description": "Mutaxassisimiz sizning tibbiy tarixingizni, tahlillaringizni va savollaringizni diqqat bilan ko'rib chiqadi. Individual davolash rejasi tuziladi."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Tayyorgarlik va tekshiruvlar",
+      "description": "Qon tahlillari, ultratovush, sperma tahlili va boshqa zarur tekshiruvlar o'tkaziladi. Tana EKO ga to'liq tayyorlanadi."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Tuxumdon stimulyatsiyasi",
+      "description": "Gormonal dori-darmonlar yordamida bir nechta tuxum hujayralari bir vaqtda voyaga yetkaziladi. Shifokorlar ultratovush orqali doimiy nazorat olib boradi."
+    },
+    "step4": {
+      "number": "04",
+      "title": "Tuxum hujayra olish",
+      "description": "Voyaga yetgan tuxum hujayralari ultratovush nazoratida, og'riqsiz ravishda olinadi. Jarayon qisqa va xavfsiz."
+    },
+    "step5": {
+      "number": "05",
+      "title": "Laboratoriyada urug'lantirish",
+      "description": "Tuxum hujayralari embriyolog tomonidan spermatozoid bilan birlashtirilib, maxsus inkubatorda rivojlantiriladi."
+    },
+    "step6": {
+      "number": "06",
+      "title": "Embrion rivojlanishi",
+      "description": "Urug'langan tuxum hujayralari 3–5 kun davomida kuzatiladi. Sifatli embrionlar ko'chirishga tayyorlanadi."
+    },
+    "step7": {
+      "number": "07",
+      "title": "Embrion ko'chirish",
+      "description": "Sifatli embrion bachadonga nozik kateter yordamida joylashtiriladi. Jarayon og'riqsiz va 15–20 daqiqa davom etadi."
+    },
+    "step8": {
+      "number": "08",
+      "title": "HCG testi va natija",
+      "description": "Ko'chirishdan 10–14 kun o'tgach, qon tahlili orqali homiladorlik tasdiqlanadi. Bu an'anaviy test vaqti — ko'plab bemorlarimiz uchun hayot o'zgargani lahzasi."
+    }
+  },
+  "stories": {
+    "heading": "Muvaffaqiyat tarihlari",
+    "subheading": "10 000 dan ortiq oilaga baxt in'om etildi",
+    "outcomeLabel": "Natija",
+    "locationLabel": "Shahar",
+    "yearLabel": "Yil",
+    "photoAlt": "Xursand oila — Miracle IVF muvaffaqiyat tarihi",
+    "privacyNote": "(Bemorning roziligi bilan chop etildi)",
+    "cta": "Siz ham boshlay olasiz — Bepul maslahat olish",
+    "sectionBadge": "Haqiqiy natijalar",
+    "successLabel": "Muvaffaqiyatli",
+    "blurNotice": "Maxfiylik uchun xiralashtirilgan",
+    "typeHcg": "HCG musbat",
+    "typeIvf": "IVF natija",
+    "typeFamily": "Baxtli oila",
+    "typeGratitude": "Bemor xabar",
+    "result1": {
+      "identifier": "G.M. — Toshkent",
+      "outcome": "Birinchi urinishdan muvaffaqiyatli homilador bo'ldi",
+      "date": "2024 yil, Mart",
+      "mediaAlt": "Musbat homiladorlik testi natijasi"
+    },
+    "result2": {
+      "identifier": "N.R. — Samarqand",
+      "outcome": "Uch urinishdan so'ng muvaffaqiyatli natija",
+      "date": "2024 yil, Yanvar",
+      "mediaAlt": "Musbat HCG test natijasi"
+    },
+    "result3": {
+      "identifier": "D.Yu. — Andijon",
+      "outcome": "Egizak farzandlar bilan baxtli oila bo'ldi",
+      "date": "2023 yil, Noyabr",
+      "mediaAlt": "Baxtli oila — egizaklar"
+    },
+    "result4": {
+      "identifier": "M.B. — Buxoro",
+      "outcome": "Besh yillik intilish va umid amalga oshdi",
+      "date": "2024 yil, Fevral",
+      "mediaAlt": "Yangi tug'ilgan chaqaloq bilan baxtli ota-ona"
+    },
+    "result5": {
+      "identifier": "S.I. — Namangan",
+      "outcome": "IKSI protokoli orqali birinchi farzandga ega bo'ldi",
+      "date": "2023 yil, Sentyabr",
+      "mediaAlt": "Baxtli oila surati"
+    },
+    "result6": {
+      "identifier": "Z.K. — Toshkent",
+      "outcome": "Ikki yillik davolashdan so'ng mo'jiza sodir bo'ldi",
+      "date": "2024 yil, April",
+      "quote": "Miracle IVF jamoasiga cheksiz minnatdorchilik bildiraman. Ular bizga farzand sovg'a qildi — bu bizning hayotimizdagi eng buyuk mo'jiza bo'ldi.",
+      "mediaAlt": ""
+    }
+  },
+  "testimonials": {
+    "heading": "Bemorlarimiz fikri",
+    "subheading": "Har bir sharh — haqiqiy oilaning haqiqiy tajribasi",
+    "ratingLabel": "umumiy reyting",
+    "reviewCountLabel": "{count}+ sharh",
+    "prevLabel": "Oldingi",
+    "nextLabel": "Keyingi",
+    "slideLabel": "{current}/{total} sharh",
+    "stars": "{count} yulduz (5 dan)",
+    "verifiedLabel": "Tasdiqlangan bemor",
+    "trustBadge": "Tasdiqlangan bemor sharhlari",
+    "socialProofStats": "200+ haqiqiy bemor sharhi",
+    "overallRating": "4.9",
+    "typeWritten": "Yozma sharh",
+    "typeTelegram": "Telegram xabar",
+    "typeScreenshot": "Skrinshot sharh",
+    "typeVideo": "Video sharh",
+    "telegramSentLabel": "Telegram orqali yuborilgan",
+    "t1": {
+      "quote": "Miracle IVF jamoasiga cheksiz minnatdorchiligimni bildiraman. Ular bizga ikkinchi hayot sovg'a qildi. Birinchi urinishdayoq natija chiqdi — bu haqiqiy mo'jiza bo'ldi.",
+      "name": "D.M.",
+      "city": "Toshkent",
+      "treatment": "EKO (IVF)",
+      "mediaAlt": ""
+    },
+    "t2": {
+      "quote": "Shifokorlar juda professional va e'tiborli. Xalqaro mutaxassislar bilan ishlash katta farq qiladi. Uch yillik izlanishdan so'ng nihoyat orzuimizga yetdik.",
+      "name": "G.K.",
+      "city": "Samarqand",
+      "treatment": "IKSI (ICSI)",
+      "mediaAlt": ""
+    },
+    "t3": {
+      "quote": "Assalomu alaykum! Xabar bermoqchi edim — test musbat chiqdi! Juda baxtlimiz, butun jamoangizga katta rahmat!",
+      "name": "F.A.",
+      "city": "Andijon",
+      "ageRange": "34–39 yosh",
+      "treatment": "EKO (IVF)",
+      "mediaAlt": "Telegram xabar skrinshooti"
+    },
+    "t4": {
+      "quote": "Klinikaning yondashuvi va laboratoriya sifati ajoyib. Biz to'g'ri tanlov qildik.",
+      "name": "N.T.",
+      "city": "Buxoro",
+      "treatment": "Embrion saqlash",
+      "mediaAlt": "Ijobiy sharh skrinshooti"
+    },
+    "t5": {
+      "quote": "Jamoaning issiqligini va g'amxo'rligini hech joyda bunday uchrataolmadim. Ular sizga nafaqat shifokor, balki haqiqiy do'st ham bo'ladi.",
+      "name": "S.R.",
+      "city": "Namangan",
+      "ageRange": "32–37 yosh",
+      "treatment": "EKO (IVF)",
+      "mediaAlt": ""
+    },
+    "t6": {
+      "quote": "Video orqali o'z tajribamni ulashmoqchiman. Miracle IVF — bu shunchaki klinika emas, bu umid va baxt maskani.",
+      "name": "M.H.",
+      "city": "Toshkent",
+      "treatment": "IKSI (ICSI)",
+      "mediaAlt": "Video sharh ko'rinishi"
+    },
+    "cta": "Bepul konsultatsiyaga yozilish"
+  },
+  "faq": {
+    "heading": "Ko'p so'raladigan savollar",
+    "subheading": "Eng ko'p so'raladigan savollarga aniq va halol javoblar",
+    "sectionBadge": "Savol va javoblar",
+    "trust1": "Mutaxassis maslahati asosida",
+    "trust2": "Har bir holat individual",
+    "trust3": "Ochiq va halol javoblar",
+    "cta": "Bepul konsultatsiyaga yozilish",
+    "whatIsIvf": {
+      "question": "EKO (IVF) nima?",
+      "answer": "EKO (In Vitro Fertilizatsiya) — bu tuxum hujayralari laboratoriya sharoitida sperma bilan birlashtiriladigan, so'ngra hosil bo'lgan embrion bachadonga ko'chiriladigan reproduktiv texnologiya usulidir. Bu dunyo bo'ylab millionlab oilalarga yordam bergan, eng yaxshi o'rganilgan bepushtlik davolash usuli hisoblanadi."
+    },
+    "whoIsItFor": {
+      "question": "EKO kimga mos keladi?",
+      "answer": "EKO quyidagi holatlarda tavsiya etiladi: tuxum naychalari tiqilishi yoki yo'qligi, PCOS (politsioz tuxumdonlar sindromi), endometrioz, erkak bepushtligi, tushuntirilib bo'lmaydigan bepushtlik, oldingi davolash usullari samara bermagan hollar, shuningdek genetik kasallik xavfi mavjud bo'lganda. Konsultatsiyada mutaxassisimiz sizning holatga mos keladigan usulni aniqlab beradi."
+    },
+    "howLong": {
+      "question": "EKO jarayoni qancha vaqt davom etadi?",
+      "answer": "Standart EKO protokoli odatda 4–6 hafta davom etadi. Birinchi konsultatsiyadan boshlab, stimulyatsiya (10–14 kun), tuxum olish, laboratoriya bosqichi, embrion ko'chirish va HGT testiga qadar to'liq jarayon 6–8 haftani egallashi mumkin. Har bir bemorning holati individualdir — aniq jadval konsultatsiyada tuziladi."
+    },
+    "isPainful": {
+      "question": "EKO og'riqli bo'ladimi?",
+      "answer": "Ko'pchilik bemorlar EKO jarayonini yaxshi ko'taradilar. Tuxum olish jarayoni mahalliy yoki umumiy anesteziya ostida o'tkaziladi va og'riqsiz. Embrion ko'chirish esa oddiy ginekologik muolajaga o'xshash — og'riqsiz va 15–20 daqiqa davom etadi. Gormonal stimulyatsiya davrida ba'zi bemorlarda tuxumdon sohasida bosim hissi bo'lishi mumkin, lekin bu me'yor."
+    },
+    "tests": {
+      "question": "EKO uchun qanday tekshiruvlar zarur?",
+      "answer": "Asosiy tekshiruvlar: qon guruhi va rezus-omil, umumiy va biokimyoviy qon tahlili, gormonal profil (AMG, FSH, LH, prolaktin, tiroid gormoni), ultratovush (bachadon va tuxumdonlar), sperma tahlili (spermogramma), infektsiyalar (OIV, gepatit, TORCH), genetik maslahat (agar kerak bo'lsa). To'liq tekshiruv ro'yxati individual holatga qarab aniqlanadi."
+    },
+    "successFactors": {
+      "question": "EKO muvaffaqiyatiga nima ta'sir qiladi?",
+      "answer": "Asosiy omillar: ayolning yoshi (35 yoshgacha muvaffaqiyat darajasi yuqori), tuxum va embrion sifati, bachadon holati, erkak spermasi sifati, tanlangan protokol turi, laboratoriya sifati va embriyolog malakasi. Miracle IVF da o'rtacha muvaffaqiyat darajasi 65% ni tashkil etadi. Konsultatsiyada sizning individual prognozingizni muhokama qilamiz."
+    },
+    "regional": {
+      "question": "Viloyatdan kelgan bemorlar murojaat qila oladimi?",
+      "answer": "Ha, albatta. Biz O'zbekistonning barcha viloyatlaridan, shuningdek qo'shni davlatlardan kelgan bemorlarni qabul qilamiz. Masofaviy konsultatsiya (video yoki telefon orqali) imkoniyati mavjud. Toshkentga kelishingizdan oldin onlayn maslahat olib, zarur tekshiruvlar ro'yxatini olishingiz mumkin. Tura joy va qulay jadval masalasida yordam beramiz."
+    },
+    "howToBook": {
+      "question": "Konsultatsiyaga qanday yozilish mumkin?",
+      "answer": "Bir necha yo'l mavjud: sahifadagi formani to'ldiring — mutaxassisimiz 24 soat ichida siz bilan bog'lanadi; WhatsApp yoki Telegram orqali yozing; telefon qiling. Birinchi konsultatsiya bepul va majburiyatsiz. Kelishdan oldin tahlillaringizni (agar mavjud bo'lsa) olib kelishingizni tavsiya etamiz."
+    }
+  },
+  "contact": {
+    "sectionBadge": "Biz bilan bog'laning",
+    "heading": "Bugun maslahat oling",
+    "subheading": "Birinchi qadam — bepul, majburiyatsiz va maxfiy",
+    "reassurance1": "100% maxfiy",
+    "reassurance2": "Hech qanday majburiyat yo'q",
+    "reassurance3": "24 soat ichida javob",
+    "reassurance4": "Bepul maslahat",
+    "orContact": "Yoki to'g'ridan-to'g'ri bog'laning",
+    "phoneLabel": "Telefon",
+    "whatsappLabel": "WhatsApp orqali yozing",
+    "telegramLabel": "Telegram orqali yozing",
+    "addressLabel": "Manzil",
+    "hoursLabel": "Ish vaqti",
+    "hours": "Du–Ju: 9:00–18:00, Sha: 9:00–14:00",
+    "mapLabel": "Xaritada ko'rish",
+    "mapEmbedTitle": "Miracle IVF klinikasi xaritasi"
+  },
+  "form": {
+    "fullName": {
+      "label": "To'liq ism",
+      "placeholder": "Ismingiz va familiyangiz"
+    },
+    "phone": {
+      "label": "Telefon raqam",
+      "placeholder": "+998 XX XXX-XX-XX"
+    },
+    "city": {
+      "label": "Shahar (ixtiyoriy)",
+      "placeholder": "Toshkent, Samarqand..."
+    },
+    "service": {
+      "label": "Qiziquvchi xizmat (ixtiyoriy)",
+      "placeholder": "Xizmatni tanlang",
+      "options": {
+        "ivf": "EKO (IVF)",
+        "icsi": "IKSI (ICSI)",
+        "iui": "IUI",
+        "freezing": "Muzlatish",
+        "male": "Erkak bepushtligi",
+        "pgt": "Genetik tekshirish (PGT)",
+        "general": "Umumiy maslahat"
+      }
+    },
+    "message": {
+      "label": "Xabar (ixtiyoriy)",
+      "placeholder": "Savollaringiz yoki holatingiz haqida qisqacha yozing..."
+    },
+    "submit": "Maslahat olish",
+    "submitting": "Yuborilmoqda...",
+    "required": "* majburiy",
+    "success": {
+      "heading": "Rahmat! Arizangiz qabul qilindi",
+      "body": "Tez orada mutaxassisimiz siz bilan bog'lanadi. Odatda 24 soat ichida javob beramiz.",
+      "reassurance": "Sizning ma'lumotlaringiz 100% maxfiy saqlanadi."
+    },
+    "error": {
+      "heading": "Xato yuz berdi",
+      "body": "Iltimos, qayta urinib ko'ring yoki to'g'ridan-to'g'ri telefon yoki WhatsApp orqali bog'laning.",
+      "retry": "Qayta urinish"
+    }
+  },
+  "validation": {
+    "fullName": {
+      "required": "Ism majburiy",
+      "minLength": "Ism kamida 2 ta belgidan iborat bo'lishi kerak",
+      "maxLength": "Ism 100 ta belgidan oshmasligi kerak"
+    },
+    "phone": {
+      "required": "Telefon raqam majburiy",
+      "invalid": "Noto'g'ri telefon raqam formati"
+    },
+    "message": {
+      "maxLength": "Xabar 1000 ta belgidan oshmasligi kerak"
+    },
+    "generic": "Iltimos, ushbu maydonni to'ldiring",
+    "rateLimit": "Juda ko'p so'rovlar yuborildi. Iltimos, 60 daqiqadan so'ng qayta urinib ko'ring."
+  },
+  "footer": {
+    "tagline": "Umid, ilm va mehr bilan",
+    "nav": {
+      "heading": "Sahifalar"
+    },
+    "hours": {
+      "heading": "Ish vaqti",
+      "weekdays": "Dushanba–Juma: 9:00–18:00",
+      "saturday": "Shanba: 9:00–14:00",
+      "sunday": "Yakshanba: Dam olish kuni"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "youtube": "YouTube"
+    },
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Foydalanish shartlari",
+    "copyright": "© {year} Miracle IVF. Barcha huquqlar himoyalangan."
+  },
+  "a11y": {
+    "skipToContent": "Asosiy kontentga o'tish",
+    "externalLink": "(yangi oynada ochiladi)",
+    "required": "majburiy maydon",
+    "formError": "Xato:",
+    "carouselRegion": "Bemorlar sharhlari karuseli",
+    "faqRegion": "Ko'p so'raladigan savollar",
+    "counterAnimating": "Hisoblagich animatsiyasi",
+    "logoAlt": "Miracle IVF — Bosh sahifaga",
+    "languageSwitcher": "Til tanlash"
+  }
+}

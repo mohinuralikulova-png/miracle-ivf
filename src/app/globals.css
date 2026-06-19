@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Brand design tokens ────────────────────────────────────────────────────
+ *
+ * Canonical source: CLAUDE.md §6 Design System Rules
+ *
+ * Brand hex values:
+ *   Primary blue  #163C8C  →  HSL 221 73% 32%
+ *   Accent pink   #F4B6C2  →  HSL 348 74% 84%
+ *   Page bg       #F5F7FA  →  HSL 216 33% 97%
+ *
+ * shadcn/ui CSS variables use bare HSL triplets (no hsl() wrapper).
+ * Tailwind wraps them: `hsl(var(--primary))`.
+ * ─────────────────────────────────────────────────────────────────────────── */
+
+@layer base {
+  :root {
+    /* Surfaces */
+    --background: 216 33% 97%;
+    --foreground: 224 71% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 224 71% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71% 15%;
+
+    /* Brand primary — deep blue #163C8C */
+    --primary: 221 73% 32%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary surface — slightly cool light */
+    --secondary: 216 30% 93%;
+    --secondary-foreground: 221 73% 25%;
+
+    /* Muted */
+    --muted: 216 20% 91%;
+    --muted-foreground: 221 18% 46%;
+
+    /* Accent — soft pink #F4B6C2
+     * NEVER use as background for body text — contrast ratio ~1.8:1 on white.
+     * Use for decorative elements, highlights, and pill badges only.      */
+    --accent: 348 74% 84%;
+    --accent-foreground: 221 73% 20%;
+
+    /* Destructive */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders / inputs */
+    --border: 216 22% 88%;
+    --input: 216 22% 88%;
+    --ring: 221 73% 32%;
+
+    /* Border radius scale — rounded-xl / rounded-2xl for cards per design spec */
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+
+  /* Respect prefers-reduced-motion across all animations */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* Focus rings — never suppress, always visible */
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+}
+
+@layer utilities {
+  /* Safe-area padding for iOS notched devices (sticky CTA bar) */
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
