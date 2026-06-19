@@ -6,8 +6,8 @@ import { CTAButton } from '@/components/common/CTAButton'
 
 // Hero image is a Phase 2 content gap — see CONTENT_GAPS.md.
 // When /public/images/hero.jpg is available, the gradient placeholder is replaced automatically.
-const HERO_IMAGE_SRC = '/images/hero.jpg'
-const HAS_HERO_IMAGE = false // flip to true once the image file is committed
+const HERO_IMAGE_SRC = '/hero.png'
+const HAS_HERO_IMAGE = true
 
 export async function Hero() {
   const t = await getTranslations('hero')
