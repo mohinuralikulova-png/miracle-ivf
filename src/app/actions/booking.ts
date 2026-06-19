@@ -2,7 +2,6 @@
 
 import { getLocale, getTranslations } from 'next-intl/server'
 import { headers } from 'next/headers'
-import { after } from 'next/server'
 import { leadService } from '@/lib/leads'
 import { createBookingSchema } from '@/lib/validation'
 import { checkRateLimit, extractIp } from '@/lib/rate-limit'
@@ -81,9 +80,10 @@ export async function submitBooking(
     return { status: 'error', error: saveResult.error }
   }
 
-  // after() keeps the Vercel function alive after the response is sent,
-  // so the Telegram notification is guaranteed to fire even on serverless.
-  after(() => leadService.notify(lead))
+  // Await notification directly — fire-and-forget (void) is killed by Vercel
+  // before it completes. Awaiting here guarantees delivery; the extra ~1s is
+  // acceptable for a form that users submit once.
+  await leadService.notify(lead)
 
   return { status: 'success' }
 }

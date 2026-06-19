@@ -1,7 +1,6 @@
 import type { Lead, LeadStorageProvider, LeadNotificationProvider, Result } from './types'
 
 const MAX_NOTIFICATION_ATTEMPTS = 3
-const RETRY_BASE_DELAY_MS = 1000
 
 export class LeadService {
   constructor(
@@ -22,8 +21,7 @@ export class LeadService {
     return { success: true }
   }
 
-  // Sends the notification with retries. Call this via next/server `after()`
-  // so Vercel keeps the function alive after the response is sent.
+  // Sends the notification with retries. Awaited directly in the server action.
   async notify(lead: Lead): Promise<void> {
     await this.notifyWithRetry(lead)
   }
@@ -46,12 +44,7 @@ export class LeadService {
     }
 
     if (attempt < MAX_NOTIFICATION_ATTEMPTS) {
-      const delay = Math.pow(2, attempt) * RETRY_BASE_DELAY_MS
-      console.warn(
-        `[LeadService] Notification attempt ${attempt} failed, retrying in ${delay}ms:`,
-        result.error,
-      )
-      await new Promise((resolve) => setTimeout(resolve, delay))
+      console.warn(`[LeadService] Notification attempt ${attempt} failed, retrying:`, result.error)
       return this.notifyWithRetry(lead, attempt + 1)
     }
 
