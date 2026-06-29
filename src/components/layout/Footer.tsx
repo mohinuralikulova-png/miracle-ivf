@@ -1,11 +1,10 @@
 import { getTranslations } from 'next-intl/server'
 import { Instagram, Facebook, Youtube, Send, Phone, Clock } from 'lucide-react'
-import type { AppPathname } from '@/i18n/routing'
 import { Link } from '@/i18n/navigation'
 import { Container } from './Container'
 
 type SocialLink = { href: string; label: string; Icon: React.ComponentType<{ className?: string; 'aria-hidden'?: boolean | 'true' | 'false' }> }
-type NavLink = { href: AppPathname; label: string }
+type NavLink = { href: { pathname: '/'; hash: string }; label: string }
 
 export async function Footer() {
   const tCommon = await getTranslations('common')
@@ -18,11 +17,11 @@ export async function Footer() {
   const phoneHref = `tel:${phone.replace(/[^\d+]/g, '')}`
 
   const navLinks: NavLink[] = [
-    { href: '/services', label: tNav('services') },
-    { href: '/doctors', label: tNav('doctors') },
-    { href: '/process', label: tNav('process') },
-    { href: '/success', label: tNav('success') },
-    { href: '/contact', label: tNav('contact') },
+    { href: { pathname: '/', hash: 'services' }, label: tNav('services') },
+    { href: { pathname: '/', hash: 'doctors' },  label: tNav('doctors') },
+    { href: { pathname: '/', hash: 'process' },  label: tNav('process') },
+    { href: { pathname: '/', hash: 'success' },  label: tNav('success') },
+    { href: { pathname: '/', hash: 'contact' },  label: tNav('contact') },
   ]
 
   const socialLinks: SocialLink[] = [
@@ -62,7 +61,7 @@ export async function Footer() {
             </h3>
             <ul className="space-y-2.5">
               {navLinks.map(({ href, label }) => (
-                <li key={href}>
+                <li key={label}>
                   <Link
                     href={href}
                     className="text-sm text-foreground/75 transition-colors hover:text-primary"

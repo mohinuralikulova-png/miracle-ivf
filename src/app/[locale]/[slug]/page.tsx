@@ -1,9 +1,8 @@
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import type { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
 import type { AppLocale } from '@/i18n/routing'
-import { SectionScroll } from '@/components/common/SectionScroll'
 
 // Maps each locale's localized slug to the canonical section ID (HTML anchor).
 const SLUG_TO_SECTION: Readonly<Record<string, Record<string, string>>> = {
@@ -74,10 +73,5 @@ export default async function SlugPage({ params }: SlugPageProps) {
     notFound()
   }
 
-  return (
-    <main id="main-content">
-      {/* Renders the same landing-page sections as /[locale] — populated in Phase 2–4 */}
-      <SectionScroll sectionId={sectionId} />
-    </main>
-  )
+  redirect(`/${locale}#${sectionId}`)
 }

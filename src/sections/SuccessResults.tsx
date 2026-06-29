@@ -101,7 +101,7 @@ export async function SuccessResults() {
   ]
 
   return (
-    <Section id="stories" alternate>
+    <Section id="success" alternate>
       <Container>
         {/* Trust badge */}
         <div className="mb-4 flex justify-center">

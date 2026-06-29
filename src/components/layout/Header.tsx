@@ -21,7 +21,7 @@ export async function Header() {
           </nav>
 
           <Link
-            href="/contact"
+            href={{ pathname: '/', hash: 'contact' }}
             className="rounded-xl bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
           >
             {tCommon('ctaPrimary')}
