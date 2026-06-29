@@ -1,18 +1,21 @@
 {
   "common": {
     "clinicName": "Miracle IVF",
-    "phone": "+998 XX XXX-XX-XX",
-    "address": "Tashkent, [Address]",
+    "phone": "+998 95 831 6333",
+    "address": "28A Qamarniso Street, Almazar District, Tashkent, Uzbekistan",
     "ctaPrimary": "Book Consultation",
     "ctaCall": "Call Us",
     "ctaWhatsapp": "WhatsApp",
     "ctaTelegram": "Telegram",
-    "whatsappUrl": "https://wa.me/998000000000",
-    "telegramUrl": "https://t.me/miracleivf",
-    "mapsUrl": "https://maps.google.com/?q=Miracle+IVF+Tashkent",
+    "whatsappUrl": "https://wa.me/998958316333",
+    "telegramUrl": "https://t.me/miracleeko",
+    "mapsUrl": "https://maps.app.goo.gl/Pae1cUMgWzas7fYe7",
     "learnMore": "Learn More",
     "loading": "Loading...",
-    "close": "Close"
+    "close": "Close",
+    "instagramUrl": "https://www.instagram.com/miracleeko",
+    "facebookUrl": "https://www.facebook.com/miracleivf",
+    "youtubeUrl": "https://www.youtube.com/@miracleivf"
   },
   "meta": {
     "title": "Miracle IVF — IVF Clinic in Tashkent",
@@ -413,7 +416,7 @@
     "telegramLabel": "Message via Telegram",
     "addressLabel": "Address",
     "hoursLabel": "Opening Hours",
-    "hours": "Mon–Fri: 9:00–18:00, Sat: 9:00–14:00",
+    "hours": "Mon–Fri: 09:00–16:00, Sat: 09:00–12:00",
     "mapLabel": "View on map",
     "mapEmbedTitle": "Miracle IVF clinic map"
   },
@@ -484,11 +487,12 @@
     },
     "hours": {
       "heading": "Opening Hours",
-      "weekdays": "Monday–Friday: 9:00–18:00",
-      "saturday": "Saturday: 9:00–14:00",
+      "weekdays": "Monday–Friday: 09:00–16:00",
+      "saturday": "Saturday: 09:00–12:00",
       "sunday": "Sunday: Closed"
     },
     "social": {
+      "heading": "Follow Us",
       "instagram": "Instagram",
       "facebook": "Facebook",
       "youtube": "YouTube"
@@ -507,5 +511,47 @@
     "counterAnimating": "Counter animation",
     "logoAlt": "Miracle IVF — Home",
     "languageSwitcher": "Language selector"
+  },
+  "privacy": {
+    "metaTitle": "Privacy Policy — Miracle IVF",
+    "metaDescription": "Privacy and data protection policy of Miracle IVF clinic.",
+    "heading": "Privacy Policy",
+    "updated": "Last updated: January 2024",
+    "intro": "Miracle IVF clinic takes the protection of your personal data seriously. This policy explains what data is collected when you use our website, how it is used, and how it is stored.",
+    "s1Heading": "What data we collect",
+    "s1Body": "When you fill out the consultation request form, we collect: your full name, phone number, city (optional), service of interest (optional), and an additional message (optional). No personal data is collected during ordinary browsing of the site.",
+    "s2Heading": "How data is used",
+    "s2Body": "Collected data is used solely to: contact you regarding your consultation request, provide information about our services, and process your enquiry. We do not sell or share your data with third parties for marketing purposes.",
+    "s3Heading": "Data security",
+    "s3Body": "All data is stored on secure encrypted servers. We apply modern security protocols to prevent unauthorised access to your data.",
+    "s4Heading": "Who has access",
+    "s4Body": "Your data is accessible only to Miracle IVF clinic staff — medical and administrative personnel who require it to process your request. All staff are trained in data privacy practices.",
+    "s5Heading": "Your rights",
+    "s5Body": "You may at any time request to view the data stored about you, request deletion of your data, and contact us to correct any inaccuracies.",
+    "s6Heading": "Cookies and analytics",
+    "s6Body": "Our website uses Google Analytics and Meta Pixel analytics tools. These collect usage statistics but do not store personally identifying information. You can disable cookies in your browser settings.",
+    "contactHeading": "Contact",
+    "contactBody": "If you have questions about our privacy policy, please contact us: phone +998 95 831 6333 or via the form on this page."
+  },
+  "terms": {
+    "metaTitle": "Terms of Use — Miracle IVF",
+    "metaDescription": "Terms and conditions for using the Miracle IVF clinic website.",
+    "heading": "Terms of Use",
+    "updated": "Last updated: January 2024",
+    "intro": "These Terms of Use govern your use of the miracleivf.uz website. By using the site, you agree to these terms.",
+    "s1Heading": "Service description",
+    "s1Body": "miracleivf.uz is the official informational website of Miracle IVF clinic. The site provides information about clinic services, specialists and the treatment process, and allows you to submit a consultation request.",
+    "s2Heading": "Not medical advice",
+    "s2Body": "All information on this site is provided for general informational purposes only. It is not a substitute for advice from a qualified medical professional. Always consult a doctor before making any medical decisions.",
+    "s3Heading": "Consultation booking",
+    "s3Body": "Completing the form submits a request for consultation. It does not guarantee a specific date or service. Our specialists will review your request and contact you within 24 hours.",
+    "s4Heading": "Intellectual property",
+    "s4Body": "All text, images, logos and other materials on this site are the property of Miracle IVF clinic and are protected by copyright. Copying or distribution without permission is prohibited.",
+    "s5Heading": "External links",
+    "s5Body": "Our site may contain links to third-party services (Google Maps, WhatsApp, Telegram, social networks). We are not responsible for the privacy policies or terms of use of those services.",
+    "s6Heading": "Changes",
+    "s6Body": "Miracle IVF clinic reserves the right to amend these terms at any time. Changes take effect upon publication on the site. Continued use of the site constitutes acceptance of the amended terms.",
+    "contactHeading": "Contact",
+    "contactBody": "For questions about these terms, contact us: phone +998 95 831 6333 or via the form on this page."
   }
 }

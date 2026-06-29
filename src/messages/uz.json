@@ -1,18 +1,21 @@
 {
   "common": {
     "clinicName": "Miracle IVF",
-    "phone": "+998 XX XXX-XX-XX",
-    "address": "Toshkent, [Manzil]",
+    "phone": "+998 95 831 6333",
+    "address": "Toshkent sh., Olmazor t., Qamarniso 28A",
     "ctaPrimary": "Maslahat olish",
     "ctaCall": "Qo'ng'iroq qiling",
     "ctaWhatsapp": "WhatsApp",
     "ctaTelegram": "Telegram",
-    "whatsappUrl": "https://wa.me/998000000000",
-    "telegramUrl": "https://t.me/miracleivf",
-    "mapsUrl": "https://maps.google.com/?q=Miracle+IVF+Tashkent",
+    "whatsappUrl": "https://wa.me/998958316333",
+    "telegramUrl": "https://t.me/miracleeko",
+    "mapsUrl": "https://maps.app.goo.gl/Pae1cUMgWzas7fYe7",
     "learnMore": "Batafsil",
     "loading": "Yuklanmoqda...",
-    "close": "Yopish"
+    "close": "Yopish",
+    "instagramUrl": "https://www.instagram.com/miracleeko",
+    "facebookUrl": "https://www.facebook.com/miracleivf",
+    "youtubeUrl": "https://www.youtube.com/@miracleivf"
   },
   "meta": {
     "title": "Miracle IVF — Toshkentdagi EKO klinikasi",
@@ -413,7 +416,7 @@
     "telegramLabel": "Telegram orqali yozing",
     "addressLabel": "Manzil",
     "hoursLabel": "Ish vaqti",
-    "hours": "Du–Ju: 9:00–18:00, Sha: 9:00–14:00",
+    "hours": "Du–Ju: 09:00–16:00, Sha: 09:00–12:00",
     "mapLabel": "Xaritada ko'rish",
     "mapEmbedTitle": "Miracle IVF klinikasi xaritasi"
   },
@@ -484,11 +487,12 @@
     },
     "hours": {
       "heading": "Ish vaqti",
-      "weekdays": "Dushanba–Juma: 9:00–18:00",
-      "saturday": "Shanba: 9:00–14:00",
+      "weekdays": "Dushanba–Juma: 09:00–16:00",
+      "saturday": "Shanba: 09:00–12:00",
       "sunday": "Yakshanba: Dam olish kuni"
     },
     "social": {
+      "heading": "Ijtimoiy tarmoqlar",
       "instagram": "Instagram",
       "facebook": "Facebook",
       "youtube": "YouTube"
@@ -507,5 +511,47 @@
     "counterAnimating": "Hisoblagich animatsiyasi",
     "logoAlt": "Miracle IVF — Bosh sahifaga",
     "languageSwitcher": "Til tanlash"
+  },
+  "privacy": {
+    "metaTitle": "Maxfiylik siyosati — Miracle IVF",
+    "metaDescription": "Miracle IVF klinikasining shaxsiy ma'lumotlarni himoya qilish siyosati.",
+    "heading": "Maxfiylik siyosati",
+    "updated": "Oxirgi yangilanish: 2024 yil, Yanvar",
+    "intro": "Miracle IVF klinikasi sizning shaxsiy ma'lumotlaringizni himoya qilishga jiddiy yondashadi. Ushbu siyosat saytimizdan foydalanish jarayonida qanday ma'lumotlar to'planishi, ulardan qanday foydalanilishi va qanday saqlanishi haqida tushuntiradi.",
+    "s1Heading": "Qanday ma'lumotlar to'planadi",
+    "s1Body": "Maslahat olish formasini to'ldirganingizda quyidagi ma'lumotlarni to'playmiz: to'liq ismingiz va familiyangiz, telefon raqamingiz, shahringiz (ixtiyoriy), qiziquvchi xizmat turi (ixtiyoriy) va qo'shimcha xabar (ixtiyoriy). Saytni oddiy ko'rish jarayonida hech qanday shaxsiy ma'lumot to'planmaydi.",
+    "s2Heading": "Ma'lumotlardan qanday foydalaniladi",
+    "s2Body": "To'plangan ma'lumotlar faqat quyidagi maqsadlarda ishlatiladi: siz bilan konsultatsiya masalasida bog'lanish, xizmatlarimiz haqida ma'lumot berish va murojaat so'rovingizni ko'rib chiqish. Biz sizning ma'lumotlaringizni marketing maqsadlarida uchinchi tomonlarga sotmaymiz va bermamiz.",
+    "s3Heading": "Ma'lumotlar xavfsizligi",
+    "s3Body": "Barcha ma'lumotlar shifrlangan serverlar orqali saqlanadi. Biz zamonaviy xavfsizlik protokollaridan foydalanamiz va ma'lumotlaringizga ruxsatsiz kirishning oldini olamiz.",
+    "s4Heading": "Kimlar ko'ra oladi",
+    "s4Body": "Sizning ma'lumotlaringizga faqat so'rovingizni ko'rib chiqish uchun zarur bo'lgan Miracle IVF klinikasining tibbiy va ma'muriy xodimlari kirishi mumkin. Barcha xodimlar maxfiylik bo'yicha o'qitilgan.",
+    "s5Heading": "Sizning huquqlaringiz",
+    "s5Body": "Siz istalgan vaqtda saqlangan ma'lumotlaringizni ko'rishni so'rash, ma'lumotlaringizni o'chirishni talab qilish va ma'lumotlaringizni to'g'irlash uchun bizga murojaat qilishingiz mumkin.",
+    "s6Heading": "Kekslar va analitika",
+    "s6Body": "Saytimiz Google Analytics va Meta Pixel analitika vositalaridan foydalanadi. Bu vositalar saytdan foydalanish statistikasini yig'adi, ammo shaxsiy identifikatsiya ma'lumotlarini saqlamaydi. Brauzeringiz sozlamalarida cookie fayllarni o'chirib qo'yishingiz mumkin.",
+    "contactHeading": "Bog'lanish",
+    "contactBody": "Maxfiylik siyosatimiz bo'yicha savollaringiz bo'lsa, bizga murojaat qiling: telefon +998 95 831 6333 yoki sahifadagi forma orqali."
+  },
+  "terms": {
+    "metaTitle": "Foydalanish shartlari — Miracle IVF",
+    "metaDescription": "Miracle IVF klinikasi saytidan foydalanish shartlari va qoidalari.",
+    "heading": "Foydalanish shartlari",
+    "updated": "Oxirgi yangilanish: 2024 yil, Yanvar",
+    "intro": "Ushbu foydalanish shartlari miracleivf.uz saytidan foydalanish tartibini belgilaydi. Saytdan foydalanish orqali siz ushbu shartlarni qabul qilasiz.",
+    "s1Heading": "Xizmat ta'rifi",
+    "s1Body": "miracleivf.uz — bu Miracle IVF klinikasining rasmiy axborot saytidir. Sayt klinika xizmatlari, mutaxassislar va davolash jarayoni haqida ma'lumot beradi, shuningdek maslahat olish uchun ariza qoldirish imkonini beradi.",
+    "s2Heading": "Tibbiy maslahat emas",
+    "s2Body": "Saytdagi barcha ma'lumotlar faqat umumiy axborot maqsadida taqdim etilgan. Ushbu ma'lumotlar malakali tibbiy mutaxassis maslahatini almashtirmaydi. Tibbiy qaror qabul qilishdan oldin doimo kvalifikatsiyali shifokor bilan maslahatlashing.",
+    "s3Heading": "Konsultatsiya uchun ariza berish",
+    "s3Body": "Formani to'ldirish konsultatsiya olishga so'rov yuborish demakdir. Bu belgilangan sana yoki xizmatni kafolatlamaydi. Klinika mutaxassislari arizangizni ko'rib chiqib, 24 soat ichida siz bilan bog'lanadi.",
+    "s4Heading": "Mualliflik huquqi",
+    "s4Body": "Saytdagi barcha matn, rasm, logotip va boshqa materiallar Miracle IVF klinikasining mulki hisoblanadi va mualliflik huquqi bilan himoyalangan. Ruxsatsiz ko'chirib olish va tarqatish taqiqlanadi.",
+    "s5Heading": "Tashqi havolalar",
+    "s5Body": "Saytimiz uchinchi tomon saytlariga (Google Maps, WhatsApp, Telegram, ijtimoiy tarmoqlar) havolalar o'z ichiga olishi mumkin. Bu saytlarning maxfiylik siyosati va foydalanish shartlari uchun biz javobgar emasmiz.",
+    "s6Heading": "O'zgartirishlar",
+    "s6Body": "Miracle IVF klinikasi ushbu foydalanish shartlarini istalgan vaqtda o'zgartirish huquqini saqlaydi. O'zgartirishlar saytda e'lon qilingan paytdan boshlab kuchga kiradi. Saytdan foydalanishni davom ettirish o'zgartirilgan shartlarni qabul qilish degan ma'noni anglatadi.",
+    "contactHeading": "Bog'lanish",
+    "contactBody": "Foydalanish shartlari bo'yicha savollaringiz bo'lsa, bizga murojaat qiling: telefon +998 95 831 6333 yoki sahifadagi forma orqali."
   }
 }

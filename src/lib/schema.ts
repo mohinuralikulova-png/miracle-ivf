@@ -156,19 +156,19 @@ export async function generateMedicalClinicSchema(locale: Locale): Promise<JsonL
       name: 'Uzbekistan',
     },
     medicalSpecialty: 'Gynecologic',
-    // Mon–Fri 09:00–18:00, Sat 09:00–14:00 (matches contact.hours copy).
+    // Mon–Fri 09:00–16:00, Sat 09:00–12:00 (matches contact.hours copy).
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
         opens: '09:00',
-        closes: '18:00',
+        closes: '16:00',
       },
       {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: 'Saturday',
         opens: '09:00',
-        closes: '14:00',
+        closes: '12:00',
       },
     ],
     availableService,
